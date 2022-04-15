@@ -73,7 +73,7 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                 display="flex" gap="12px" flexDirection="row" placeItems="center"
                 fontSize="20px"
             >
-                <GiEarthAmerica color="brand.gray" fontSize="24px" />
+                <Box color="brand.gray" ><GiEarthAmerica fontSize="24px" /></Box>
                 <Input
                     fontFamily="Roboto"
                     border="none"

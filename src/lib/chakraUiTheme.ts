@@ -9,7 +9,10 @@ const theme = extendTheme({
     },
     colors: {
         brand: {
-            blue: "#1E86FF"
+            blue: "#1E86FF",
+            text: "#334680",
+            gray: "#B9BDCF",
+            heading: "#282538"
         }
     }
 })

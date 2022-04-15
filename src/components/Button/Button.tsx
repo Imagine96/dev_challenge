@@ -10,7 +10,6 @@ interface Props {
 const Button: React.FC<Props> = ({ onClick, text, type }) => {
 
     const [isSmall] = useMediaQuery('(max-width: 700px)')
-    console.log(isSmall)
     return (
         <ChakraButton
             type={type}
