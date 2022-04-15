@@ -1,6 +1,8 @@
 import { useCallback, useEffect, useState } from "react";
 import { getJobs, getUserLocations, isNewQ } from "../utils";
-import { JobsData, SearchHistory } from "../types";
+import { JobsData, JobsQ, SearchHistory } from "../types";
+
+const MAX_PAGES = 5;
 
 const useJobs = () => {
     const [location, setLocation] = useState<{
@@ -13,6 +15,31 @@ const useJobs = () => {
     const [fullTime, setFulltime] = useState<boolean>()
     const [error, setError] = useState<false | string>(false)
     const [searchHistory, setSearchHistory] = useState<SearchHistory[]>([])
+    const [page, setPage] = useState<number>(0)
+
+    const updatePage = () => {
+        if (page > 0 && page < MAX_PAGES) {
+            setPage(prev => prev + 1)
+        }
+    }
+
+    useEffect(() => {
+        if (page && page > 0 && searchHistory[0]) {
+            const q = searchHistory[0].q
+            getJobs(page + 1, q.location.country, q.what, q.fullTime, q.where)
+                .then(data => {
+                    setJobList(prev => {
+                        if (prev) {
+                            return {
+                                ...prev,
+                                results: [...prev!.results, ...data.results]
+                            }
+                        }
+                    })
+                    updatePage()
+                })
+        }
+    }, [page])
 
     const addToSearchHistory = (data: SearchHistory) => {
         const qIndex = isNewQ(data.q, searchHistory)
@@ -71,7 +98,7 @@ const useJobs = () => {
                 setJobList(searchHistory[cachedQ].result)
                 setIsLoading(false)
             } else {
-                getJobs(location.country, q.what, q.fullTime, q.where)
+                getJobs(1, location.country, q.what, q.fullTime, q.where)
                     .then(data => {
                         setJobList(data)
                         addToSearchHistory({
@@ -84,6 +111,7 @@ const useJobs = () => {
                             result: data
                         })
                         setIsLoading(false)
+                        setPage(1)
                     }).catch(err => {
                         setError(err)
                         setIsLoading(false)

@@ -4,7 +4,6 @@ import PageBtn from "./PageBtn";
 import { IoArrowForward, IoArrowBack } from "react-icons/io5"
 
 interface Props {
-    currentPage: number,
     lastPage: number,
     actions: {
         nextPage: (currentPageIndex: number) => void;
@@ -16,7 +15,7 @@ interface Props {
     currentPageIndex: number
 }
 
-const PaginationControls: React.FC<Props> = ({ actions, currentPage, lastPage, currentPageIndex }) => {
+const PaginationControls: React.FC<Props> = ({ actions, lastPage, currentPageIndex }) => {
 
     const pages: number[] = []
 
@@ -38,7 +37,17 @@ const PaginationControls: React.FC<Props> = ({ actions, currentPage, lastPage, c
                     borderColor: "white",
                 }} onClick={() => actions.prevPage(currentPageIndex)} icon={<IoArrowBack />} />
             {
-                pages.map(pageNumber => <PageBtn key={pageNumber} active={pageNumber === currentPage} action={() => { actions.targetPage(pageNumber) }} content={(pageNumber + 1).toString()} />)
+                currentPageIndex === 0 ? null : <PageBtn key={0} action={() => actions.targetPage(0)} content={"1"} active={false} />
+            }
+            {
+                pages.map((pageNumber) => {
+                    if (pageNumber >= currentPageIndex && pageNumber < currentPageIndex + 4) {
+                        return <PageBtn key={pageNumber} action={() => actions.targetPage(pageNumber)} content={(pageNumber + 1).toString()} active={pageNumber === currentPageIndex} />
+                    }
+                })
+            }
+            {
+                currentPageIndex > lastPage - 4 ? null : <PageBtn key={lastPage} action={() => actions.targetPage(lastPage)} content={lastPage.toString()} active={false} />
             }
             <IconButton aria-label="next-page" height="36px" width="36px" rounded="4px" border="1px" borderColor="brand.blue" color="brand.blue"
                 _pressed={{

@@ -20,13 +20,12 @@ const JobsList: React.FC<Props> = ({ jobsList }) => {
     const memoizedJobList = jobsList.map(jobAd => <MemoizedJob {...jobAd} key={jobAd.id} />)
 
     const { currentPage, currentPageIndex, maxPageIndex, actions } = usePagination(memoizedJobList)
-    console.log(currentPageIndex)
     return (
         <Box width="full" height="full" padding="4px" display="flex" flexDirection="column" gap="8px" >
             {
                 currentPage
             }
-            <PaginationControls actions={actions} currentPageIndex={currentPageIndex} currentPage={currentPageIndex} lastPage={maxPageIndex + 1} />
+            <PaginationControls actions={actions} currentPageIndex={currentPageIndex} lastPage={maxPageIndex + 1} />
         </Box>
     )
 
