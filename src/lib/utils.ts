@@ -17,9 +17,9 @@ export const getUserLocations = async (): Promise<any> => {
 export const getJobs = async (page: number = 1, country: string, what?: string, fulltime?: boolean, where?: string) => {
 
     try {
-        /* const resp = await axios.get(`http://api.adzuna.com/v1/api/jobs/${country}/search/${page}?app_id=${jobsApi.appId}&app_key=${jobsApi.key}&category=it-jobs${fulltime ? "&full_time=1" : ""}${where ? "&" + new URLSearchParams({ where: where }) : ""}&results_per_page=20${what ? "&" + new URLSearchParams({ what: what }) : ""}&content-type=application/json`)
-        return resp.data as JobsData */
-        return JSON.parse(JSON.stringify(responseSample)) as JobsData
+        const resp = await axios.get(`http://api.adzuna.com/v1/api/jobs/${country}/search/${page}?app_id=${jobsApi.appId}&app_key=${jobsApi.key}&category=it-jobs${fulltime ? "&full_time=1" : ""}${where ? "&" + new URLSearchParams({ where: where }) : ""}&results_per_page=20${what ? "&" + new URLSearchParams({ what: what }) : ""}&content-type=application/json`)
+        return resp.data as JobsData
+        /* return JSON.parse(JSON.stringify(responseSample)) as JobsData */
     } catch (err) {
         throw (err as Error).message
     }

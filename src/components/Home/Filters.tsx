@@ -85,8 +85,8 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                     onChange={onWhereUpdate} value={where}
                 />
             </Box>
-            <Text fontSize="16" color="brand.heading"> History: <br /> </Text>
-            {/* <Stack direction={isSmall ? "row" : "column"} shadow="md" padding="8px" maxHeight="xl" overflow="auto">
+            {/*<Text fontSize="16" color="brand.heading"> History: <br /> </Text>
+            <Stack direction={isSmall ? "row" : "column"} shadow="md" padding="8px" maxHeight="xl" overflow="auto">
                 {
                     searchHistory.map((entry, index) => (
                         <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >

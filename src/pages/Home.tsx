@@ -26,6 +26,7 @@ const Home: React.FC<Props> = () => {
             fullTime: fullTime,
             what: searchWord
         })
+        setSearchWord("")
     }
 
     return (
