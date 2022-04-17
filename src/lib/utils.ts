@@ -1,10 +1,11 @@
 import { glApiKey, jobsApi } from "./api"
 import axios from "axios"
-import { JobsData, SearchHistory, JobsQ } from "./types"
+import { JobsData, SearchHistory, JobsQ, JobType } from "./types"
 import responseSample from "./responseSample.json"
+import detailsSample from "./detailsSample.json"
 
 const headers = {
-    "Accept": "aplication/json"
+    "Accept": "application/json"
 }
 
 export const getUserLocations = async (): Promise<any> => {
@@ -13,7 +14,7 @@ export const getUserLocations = async (): Promise<any> => {
 }
 
 
-export const getJobs = async (page: number, country: string, what?: string, fulltime?: boolean, where?: string) => {
+export const getJobs = async (page: number = 1, country: string, what?: string, fulltime?: boolean, where?: string) => {
 
     try {
         /* const resp = await axios.get(`http://api.adzuna.com/v1/api/jobs/${country}/search/${page}?app_id=${jobsApi.appId}&app_key=${jobsApi.key}&category=it-jobs${fulltime ? "&full_time=1" : ""}${where ? "&" + new URLSearchParams({ where: where }) : ""}&results_per_page=20${what ? "&" + new URLSearchParams({ what: what }) : ""}&content-type=application/json`)
@@ -25,8 +26,15 @@ export const getJobs = async (page: number, country: string, what?: string, full
 
 }
 
-export const getJobDetails = async () => {
+export const getJobDetailsByTittle = async (tittle: string, page: number, country: string) => {
 
+    try {
+        /* const resp = await axios.get(`http://api.adzuna.com/v1/api/jobs/${country}/search/${page}?app_id=${jobsApi.appId}&app_key=${jobsApi.key}&category=it-jobs&results_per_page=20&title_only={tittle}&content-type=application/json`)
+        return resp.data as JobsData */
+        return JSON.parse(JSON.stringify(detailsSample)) as JobType
+    } catch (err) {
+        throw (err as Error).message
+    }
 }
 
 export function isNewQ(newEntry: JobsQ, history: SearchHistory[]) {
@@ -65,8 +73,4 @@ export const splitIntoPages = <T>(arr: T[], max: number): T[][] => {
 
     return splitted
 }
-
-
-
-
 

@@ -1,4 +1,4 @@
-import { Box, IconButton } from "@chakra-ui/react";
+import { Box, IconButton, useMediaQuery } from "@chakra-ui/react";
 import React from "react";
 import PageBtn from "./PageBtn";
 import { IoArrowForward, IoArrowBack } from "react-icons/io5"
@@ -23,8 +23,10 @@ const PaginationControls: React.FC<Props> = ({ actions, lastPage, currentPageInd
         pages.push(i)
     }
 
+    const [isSmall] = useMediaQuery('(max-width: 700px)')
+
     return (
-        <Box display="flex" flexDirection="row" placeItems="center" justifyContent="flex-end" gap="12px"  >
+        <Box display="flex" flexDirection="row" placeItems="center" justifyContent={isSmall ? "space-around" : "flex-end"} gap="12px"  >
             <IconButton aria-label="prev-page" height="36px" width="36px" rounded="4px" border="1px" borderColor="brand.blue" color="brand.blue"
                 _pressed={{
                     backgroundColor: "brand.blue",

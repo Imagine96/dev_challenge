@@ -17,42 +17,6 @@ const useJobs = () => {
     const [searchHistory, setSearchHistory] = useState<SearchHistory[]>([])
     const [page, setPage] = useState<number>(0)
 
-    const updatePage = () => {
-        if (page > 0 && page < MAX_PAGES) {
-            setPage(prev => prev + 1)
-        }
-    }
-
-    useEffect(() => {
-        if (page && page > 0 && searchHistory[0]) {
-            const q = searchHistory[0].q
-            getJobs(page + 1, q.location.country, q.what, q.fullTime, q.where)
-                .then(data => {
-                    setJobList(prev => {
-                        if (prev) {
-                            return {
-                                ...prev,
-                                results: [...prev!.results, ...data.results]
-                            }
-                        }
-                    })
-                    updatePage()
-                })
-        }
-    }, [page])
-
-    const addToSearchHistory = (data: SearchHistory) => {
-        const qIndex = isNewQ(data.q, searchHistory)
-        if (qIndex !== -1) {
-            return
-        }
-        else {
-            setSearchHistory(prev => {
-                return [...prev, data]
-            })
-        }
-    }
-
     useEffect(() => {
         setIsLocationLoading(true)
         if (!location) {
@@ -74,6 +38,34 @@ const useJobs = () => {
     }, [])
 
     useEffect(() => {
+        if (page && page > 0 && searchHistory[0]) {
+            const q = searchHistory[0].q
+            getJobs(page + 1, q.location.country, q.what, q.fullTime, q.where)
+                .then(data => {
+                    setJobList(prev => {
+                        if (prev) {
+                            return {
+                                ...prev,
+                                results: [...prev!.results, ...data.results]
+                            }
+                        }
+                    })
+                    updatePage()
+                })
+        }
+        if (page === MAX_PAGES) {
+            setSearchHistory(prev => {
+                const update = [...prev]
+                update[update.length - 1] = {
+                    ...update[update.length - 1],
+                    result: jobsData!
+                }
+                return update
+            })
+        }
+    }, [page])
+
+    useEffect(() => {
         if (location && !isLocationLoading) {
             search({ location })
         }
@@ -85,6 +77,24 @@ const useJobs = () => {
             city
         })
     }, [setLocation])
+
+    const updatePage = () => {
+        if (page > 0 && page < MAX_PAGES) {
+            setPage(prev => prev + 1)
+        }
+    }
+
+    const addToSearchHistory = (data: SearchHistory) => {
+        const qIndex = isNewQ(data.q, searchHistory)
+        if (qIndex !== -1) {
+            return
+        }
+        else {
+            setSearchHistory(prev => {
+                return [...prev, data]
+            })
+        }
+    }
 
     const search = useCallback((q: { location: { country: string, city: string }, where?: string, what?: string, fullTime?: boolean }) => {
         setIsLoading(true)

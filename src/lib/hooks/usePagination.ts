@@ -1,7 +1,7 @@
 import React, { useState, useMemo, ReactNode, useCallback } from "react";
 import { splitIntoPages } from "../utils";
 
-const usePagination = (fullList: ReactNode[], max: number = 4) => {
+const usePagination = (fullList: ReactNode[], max: number = 5) => {
     const maxPageIndex = useMemo(() => (Math.floor(fullList.length / max) - 1), [fullList, max])
     const pages = useMemo(() => splitIntoPages(fullList, max), [fullList, max])
 
@@ -38,7 +38,6 @@ const usePagination = (fullList: ReactNode[], max: number = 4) => {
         if (!isLoading) {
             setIsLoading(true)
         }
-        console.log(currentPageIndex)
         if (currentPageIndex <= 0) {
             setCurrentPage(maxPageIndex)
             setIsLoading(false)
