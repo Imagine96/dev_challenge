@@ -53,3 +53,5 @@ export interface JobsQ {
     where: string,
     fullTime?: boolean
 }
+
+

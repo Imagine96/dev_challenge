@@ -10,6 +10,7 @@ interface Props {
 }
 
 const Home: React.FC<Props> = () => {
+
     const [searchWord, setSearchWord] = useState<string>("")
     const onUserSearchInput = (e: React.ChangeEvent<HTMLInputElement>) => {
         setSearchWord(e.target.value)
@@ -17,13 +18,21 @@ const Home: React.FC<Props> = () => {
     const { isLoading, jobsData, fullTime, location, searchHistory, toggleFulltime, updateLocation, search, error } = useJobs()
     const [isSmall] = useMediaQuery('(max-width: 700px)')
     const onSearchSubmit = () => {
-
+        search({
+            location: location ?? {
+                country: "gb",
+                city: "london"
+            },
+            fullTime: fullTime,
+            what: searchWord
+        })
+        setSearchWord("")
     }
 
     return (
         <>
             <SearchTopBar searchWord={searchWord} updateSearchWord={onUserSearchInput} onSearchSubmit={onSearchSubmit} />
-            <Box height="full" marginTop={isSmall ? "12px" : "30px"} width="full" display="grid" gridTemplateColumns={{ sm: "1fr", md: "0.3fr 0.7fr" }} gridTemplateRows={{ md: "1fr" }} >
+            <Box height="full" marginTop={isSmall ? "12px" : "30px"} width="full" display="grid" gridTemplateColumns={{ sm: "1fr", md: "0.3fr 0.7fr" }} gridTemplateRows={{ md: "1fr" }}>
                 <Box >
                     <Filters fullTime={fullTime ?? false} location={location ?? { country: "", city: "" }} searchHistory={searchHistory} updateLocation={updateLocation} search={search} toggleFulltime={toggleFulltime} />
                     {

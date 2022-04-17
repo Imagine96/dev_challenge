@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useCallback, memo } from "react";
-import { Box, Checkbox, Text, Select, Input, Stack } from "@chakra-ui/react";
+import React, { useState, useEffect, useCallback } from "react";
+import { Box, Checkbox, Text, Select, Input, Stack, useMediaQuery } from "@chakra-ui/react";
 import { GiEarthAmerica } from "react-icons/gi"
 import useDebounce from "../../lib/hooks/useDebounce";
 import { SearchHistory } from "../../lib/types"
@@ -25,6 +25,8 @@ interface Props {
 }
 
 const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, location, updateLocation, search }) => {
+
+    const [isSmall] = useMediaQuery('(max-width: 700px)')
 
     const [where, setWhere] = useState<string>("")
     const debounced = useDebounce(where, 500)
@@ -73,7 +75,7 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                 display="flex" gap="12px" flexDirection="row" placeItems="center"
                 fontSize="20px"
             >
-                <GiEarthAmerica color="brand.gray" fontSize="24px" />
+                <Box color="brand.gray" ><GiEarthAmerica fontSize="24px" /></Box>
                 <Input
                     fontFamily="Roboto"
                     border="none"
@@ -83,16 +85,18 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                     onChange={onWhereUpdate} value={where}
                 />
             </Box>
-            <Stack direction="column">
+            {/*<Text fontSize="16" color="brand.heading"> History: <br /> </Text>
+            <Stack direction={isSmall ? "row" : "column"} shadow="md" padding="8px" maxHeight="xl" overflow="auto">
                 {
                     searchHistory.map((entry, index) => (
-                        <Box key={index} padding="4px" rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Location: {" "} {entry.q.location.city},{" "} {entry.q.location.country},{" "} {entry.q.where !== "" ? entry.q.where + ", " : ""} </Text>
-                            <Text fontSize="14px" > Search {entry.q.what}, result: {entry.result.count} </Text>
+                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
+                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
+                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
+                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
                         </Box>
                     ))
                 }
-            </Stack>
+            </Stack> */}
         </Box>
     )
 }

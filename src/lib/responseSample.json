@@ -1,0 +1,637 @@
+{
+    "__CLASS__": "Adzuna::API::Response::JobSearchResults",
+    "count": 9715,
+    "results": [
+        {
+            "salary_min": 70000,
+            "longitude": 2.168131,
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "latitude": 41.380002,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIzMDQyNDM1MjI3In0.ZXY9LA8Lgl0OiWyYFM7sZU7Da6FVP7l4ubjtet0P_P4",
+            "created": "2022-04-11T01:54:36Z",
+            "description": "E-mail Python Technical Lead Wipro Limited Barcelona 09.04.2022 \u00c2 Overview: Wipro Ltd, with 75 years of expertise, delivers Global Information Technology, Consulting and Business Process Services , in Cognitive Computing, Hyper-automation, Robotics, Clo Leer m\u00e1s Python Technical Lead Wipro Technologies Barcelona 23.03.2022 Wipro Ltd, with 75 years of expertise, delivers Global Information Technology, Consulting and Business Process Services , in Cognitive Computing, Hyper-automation, Robotics, \u2026",
+            "title": "Python Technical Lead",
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Barcelona",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ]
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Wipro Technologies",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "3042435227",
+            "salary_max": 90000,
+            "redirect_url": "https://www.adzuna.es/land/ad/3042435227?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=C4C95E08FADEB0F893B373D602BF689907C12D01"
+        },
+        {
+            "salary_min": 90000,
+            "longitude": 2.168131,
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "latitude": 41.380002,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyMzUzODA0NiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.oh-lzJ8eEZdq237NIwMtU_RcCNUvUgdzQmwvjVE5Qaw",
+            "created": "2022-04-04T01:54:01Z",
+            "description": "Empresa multinacional l\u00edder desarrolladora de software a nivel europeo|Busca un perfil emprendedor para lanzar una nueva soluci\u00f3n SAAS en Espa\u00f1a Grupo empresarial con s\u00f3lida presencia en Espa\u00f1a, proveedora de soluciones SaaS. Definici\u00f3n e implementaci\u00f3n de objetivos de crecimiento y plan de acci\u00f3n comercial en segmentos objetivo, en l\u00ednea con los objetivos del Departamento Internacional. Dominar el entorno de mercado en el que opera para definir las orientaciones y la estrategia de desarrollo c\u2026",
+            "title": "SENIOR SALES DIRECTOR - SaaS Solution",
+            "location": {
+                "display_name": "Barcelona",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ]
+            },
+            "salary_is_predicted": "0",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Michael Page",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "3023538046",
+            "salary_max": 110000,
+            "redirect_url": "https://www.adzuna.es/land/ad/3023538046?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=D7EC2BADE26732BD2EF90ACFD4AC8421888EB639"
+        },
+        {
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "latitude": 41.119732,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIyOTg2ODU5NzUzIn0._wq7THUxvdNKrXWf8aqzBZX0-P7MDEcDyAk0kp_oO4E",
+            "created": "2022-03-21T00:51:32Z",
+            "salary_min": 70000,
+            "longitude": 1.258592,
+            "description": "Desde Adecco Tortosa, nos encontramos en la b\u00fasqueda de un Project Manager con experiencia en la internacionalizaci\u00f3n en los sectores del dise\u00f1o e interiorismo.Nuestro cliente, se trata de una entidad de apoyo a la competitividad del sector del dise\u00f1o e interiorismo.\u00bfCu\u00e1les ser\u00e1n tus funciones?Tareas de proyectos de apoyo a la internacionalizaci\u00f3n financiados por administraciones p\u00fablicasPromover la participaci\u00f3n de empresas en proyectos de la entidadAsegurar el desarrollo del proyecto y coordi\u2026",
+            "location": {
+                "display_name": "Tarragona",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Tarragona",
+                    "Tarragona"
+                ]
+            },
+            "salary_is_predicted": "0",
+            "title": "Project Manager-internacionalizaci\u00f3n sector dise\u00f1o e interiorismo",
+            "redirect_url": "https://www.adzuna.es/land/ad/2986859753?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=EB6B9701937B7731178B165405F0C4BEE4A9BDA5",
+            "company": {
+                "display_name": "Adecco",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "2986859753",
+            "salary_max": 90000
+        },
+        {
+            "title": "Head of Cloud Platform",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad Valenciana",
+                    "Alicante"
+                ],
+                "display_name": "Alicante, Comunidad Valenciana"
+            },
+            "salary_is_predicted": "0",
+            "company": {
+                "display_name": "Groupe Arthur Hunt",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "3023537781",
+            "salary_max": 110000,
+            "redirect_url": "https://www.adzuna.es/land/ad/3023537781?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=5B61C8B53C626170293024F86D3DBCBD447F61AE",
+            "salary_min": 90000,
+            "longitude": -0.4907,
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyMzUzNzc4MSIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.irRdgT-Op0hYUNroOi1t8-jjTRTpa2hO3h02gxZmTgg",
+            "latitude": 38.346,
+            "created": "2022-04-04T01:53:55Z",
+            "description": "Our client is an international IT company, developing solutions for financial institutions. Managing the company strategy development and execution of the company vision while representing Cloud Operations and Platform Services Team Driving a DevOps mindset and cloud-native way of working across engineering Playing a key role in continuous development of the product and service offering, thus participating on the company growth Leading an international Cloud Operations and Platform Services Tea\u2026"
+        },
+        {
+            "salary_max": 90000,
+            "id": "2985100828",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "ISG Personalmanagement GmbH"
+            },
+            "redirect_url": "https://www.adzuna.es/land/ad/2985100828?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=EC6C6F96FC7354E4851D261984AC6E124A5AC716",
+            "title": "Cyber Security Analyst (m/f/x) Madrid I 80% Remote",
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Madrid"
+            },
+            "salary_is_predicted": "0",
+            "description": "Our client is a renowned multinational company within the Chemical industry. With more than 120,000 employees worldwide, they are now taking it to the next level by enhancing their top-notch Digital Hub in Madrid, which supports their business in many crucial ways. As they continue to grow, they are now actively looking for a talented and passionate Cyber Security Analyst to join their international team.",
+            "longitude": -3.724726,
+            "salary_min": 70000,
+            "created": "2022-03-20T00:48:19Z",
+            "latitude": 40.429254,
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk4NTEwMDgyOCIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.qDLy_lLUzXOYfRKuozMTdAGEq7GHmUcw6Y5DnXkEQzA"
+        },
+        {
+            "created": "2022-03-23T12:34:47Z",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzQ4MDA1NiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.cIcF5qisaNQhma7VtxsRUgRmdx5x5uK9dAiPJumDmJo",
+            "latitude": 40.429254,
+            "longitude": -3.724726,
+            "description": "En Highlander Recruitment seleccionamos un/a Comercial T\u00e9cnico para incorporarse en el departamento de ventas de un importante operador de IP de car\u00e1cter nacional con sede en Barcelona. Es un operador propio en el sector de las telecomunicaciones, con tecnolog\u00eda propia y un sistema de comercializaci\u00f3n basado en la calidad de servicio y la atenci\u00f3n posventa personalizada, dirigi\u00e9ndose a p\u00fablico Pymes y Grandes Cuentas. Ofrece un servicio integral, donde incluye servicios avanzados de telefon\u00eda I\u2026",
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Madrid",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "title": "T\u00c9CNICO/A COMERCIAL SOPORTE IP (MADRID) (1149437)",
+            "redirect_url": "https://www.adzuna.es/land/ad/2993480056?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=E1A3C077B19BD2B6C4C1D145B86F785813392EB7",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "HIGHLANDER"
+            },
+            "id": "2993480056"
+        },
+        {
+            "redirect_url": "https://www.adzuna.es/land/ad/3023537751?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=7DB1C5B7628B561D67B6498426CD451046A30F06",
+            "salary_max": 90000,
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "3023537751",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Page Personnel Espa\u00f1a, ETT S.A."
+            },
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ],
+                "display_name": "Barcelona"
+            },
+            "salary_is_predicted": "0",
+            "title": "SAP Basis- Administrador/a SAP",
+            "description": "Consultora tecnol\u00f3gica internacional con grandes equipos y proyectos SAP Perfil senior- Administrador/a SAP - SAP Basis Acerca de nuestro cliente Consultora l\u00edder en soluciones SAP, con clientes en todo el mundo. Desde el equipo de SAP Basis consultants y en reportando al director de oficina en Barcelona, la personas seleccionada tendr\u00e1 entre sus funciones: Instalar y mantener los componentes en la nube (aplicativo SAP, servidores, BBDD, SSOO y equipos red). Demostrar experiencia t\u00e9cnica y desa\u2026",
+            "created": "2022-04-04T01:53:55Z",
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "latitude": 41.380002,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIzMDIzNTM3NzUxIn0.y-9S_AJ4g26PXjSCDldzMrrOAovjLz9o_KaYUtGDyKw",
+            "longitude": 2.168131,
+            "salary_min": 70000
+        },
+        {
+            "created": "2021-11-26T10:02:33Z",
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjY4Mjk0ODI2NCIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.u6nYc8P58RaVVOlOEYtqF2fl-eztRllV5hTB3RVjtEg",
+            "latitude": 41.380002,
+            "longitude": 2.168131,
+            "salary_min": 27000,
+            "description": "Mobile developer (Android/iOS) en Barcelona. Perfil buscado (Hombre/Mujer) Dise\u00f1ar y crear aplicaciones avanzadas para la plataforma Android y iOS Implementar integraciones con fuentes de datos eternas y API Trabajar junto con el equipo de desarrolladores arquitectos y propietarios de producto para evolucionar dise\u00f1ar y crear productos de gran calidad para nuestros clientes Participar de manera activa en el dise\u00f1o definici\u00f3n y desarrollo de arquitecturas y software usable robusto escalable y ma\u2026",
+            "salary_is_predicted": "0",
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Barcelona"
+            },
+            "title": "Mobile developer (Android/iOS), Barcelona",
+            "redirect_url": "https://www.adzuna.es/land/ad/2682948264?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=74FD0D73F4CDFCE1B739609348C29FF6BCC25F3A",
+            "salary_max": 36000,
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Page Personnel"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "2682948264"
+        },
+        {
+            "created": "2022-02-25T16:32:21Z",
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIyOTI2MDEzNTc4In0.8QyjGinGorS1tkYCO04xRzAVjzuzcsJPFk4ZitkiZyA",
+            "latitude": 40.415147,
+            "longitude": -3.693941,
+            "description": "Amazon Web Services (AWS), is rapidly expanding out our remote sales function to drive growth across a set of AWS\u2019 Enterprise customers, as well as the highest priority acquisition targets in the Independent Software Vendors (ISVs) segment. As an Account Executive at AWS, you are responsible for exercising acquisition skills, utilizing solution-specific targeted campaigns to help grow consumption of current and net-new AWS services. In this full sales-cycle quota carrying role, you will use you\u2026",
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Madrid",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ]
+            },
+            "title": "Account Executive, Greece",
+            "redirect_url": "https://www.adzuna.es/land/ad/2926013578?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=D1CA964D224863E0C739683BFB58FA15E283464D",
+            "id": "2926013578",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "AmazonWebServices",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "description": "Programador Java/Angular-Reingenier\u00eda en 100% En remoto. Grupo NS incorpora un Programador Java/Angular para realizar una reingenier\u00eda de una aplicaci\u00f3n actual y desplegarla en un nuevo entorno AWS. Se debe realizar la recodificaci\u00f3n de la parte backend de la aplicaci\u00f3n y hacer nuevos procesos/pantallas de la parte frontend. Hay posibilidad de teletrabajo. Imprescindible Experiencia m\u00ednima 2-3 a\u00f1os en desarrollo Java Experiencia con Angular Valorable Incorporaci\u00f3n inmediata Residencia en Barcel\u2026",
+            "created": "2021-11-27T11:24:50Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjY4NTU5MjM3NyIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.D41LfA8skloGvbDKtKOQxaGh_lddAjMbxUJuIGCG5kc",
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "salary_min": 27000,
+            "redirect_url": "https://www.adzuna.es/land/ad/2685592377?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=8FB37753B78A7C5B512744EF086C7F12AFB40F97",
+            "salary_max": 36000,
+            "company": {
+                "display_name": "Grupo NS",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "2685592377",
+            "location": {
+                "area": [
+                    "Espa\u00f1a"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Espa\u00f1a"
+            },
+            "salary_is_predicted": "0",
+            "title": "Programador Java/Angular-Reingenier\u00eda, 100% En remoto"
+        },
+        {
+            "location": {
+                "display_name": "Ababuj, Teruel",
+                "area": [
+                    "Espa\u00f1a",
+                    "Arag\u00f3n",
+                    "Teruel",
+                    "Ababuj"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location"
+            },
+            "salary_is_predicted": "0",
+            "title": "Senior Software Engineer Full remote(Linux/Embedded)IOT company",
+            "redirect_url": "https://www.adzuna.es/land/ad/2941967112?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=2962B6071B9608BC3E514F336ED21FB8D388A9D3",
+            "id": "2941967112",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Page Personnel",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIyOTQxOTY3MTEyIn0.CvXPzc59KT7dPA8-SSJDCj6lAo3QmsLzbMqXwVrWN6g",
+            "latitude": 40.548994,
+            "created": "2022-03-03T05:18:20Z",
+            "longitude": -0.808275,
+            "description": "Actualizado 05/11/2021 Join an international company within IOT industry with offices in EU and AsiaWork as Senior Embedded SW engineer and participate in developing new productsAcerca de nuestro clienteOur client is an Asian company located in Barcelona city center specialized in IOT and edge computing. With a group of high level engineers in their team they are now willing to hire their new Senior embedded SW engineer.Descripci\u00f3nDevelop the firmware in high quality and on schedule to help ach\u2026"
+        },
+        {
+            "title": "Remote | Senior iOS Engineer [OLX Autos]",
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Barcelona"
+            },
+            "salary_is_predicted": "0",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "2944557326",
+            "company": {
+                "display_name": "OLX Group",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "redirect_url": "https://www.adzuna.es/land/ad/2944557326?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=1E4C3252624E46472FE202196A85DBA14D07DEDB",
+            "longitude": 2.153473,
+            "created": "2022-03-04T05:22:39Z",
+            "latitude": 41.38993,
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk0NDU1NzMyNiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.mTkwaqxz4azzfdKZjuKb1YCPk6gDFrtHU4xw9Dn_al0",
+            "description": "We\u2019re looking for a Senior iOS Engineer to join OLX Autos, can be based anywhere in Spain.About OLXAt OLX Group we have a clear ambition: to empower millions of people across the globe by helping them connect and share their goods and services. We\u2019re a team of 5,000 ambitious, curious people building marketplace platforms that make it super easy for anyone to buy and sell almost anything, boosting local economies. OLX Autos\u2019s vision is to transform the way used-cars are traded worldwide. We\u2019re \u2026"
+        },
+        {
+            "description": "Company overviewSelectra works hard to make the world cheaper, greener and simpler by offering home contracts comparison, subscription and management services. Initially targeting energy price comparison, Selectra extended its focus to broadband and mobile plans, as well as to insurance and banking. In the long run, Selectra aims at becoming the spontaneous choice of consumers willing to gather all of their home contracts and recurring expenses into a single, powerful management tool.With over \u2026",
+            "longitude": -3.693941,
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkyNjAxMzM0OCIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.TfRz8ZQWdibfhryEeYxSBj8ruIERpRcABdKHdR3b84E",
+            "latitude": 40.415147,
+            "created": "2022-02-25T16:32:18Z",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "Selectra"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "2926013348",
+            "redirect_url": "https://www.adzuna.es/land/ad/2926013348?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=00388A2870797D53687F2E2A606250F639C4B5EB",
+            "title": "SEA Account Manager - Belgium",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "display_name": "Madrid"
+            },
+            "salary_is_predicted": "0"
+        },
+        {
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkyNjAxMjUwNiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.n9xmHMacdjjFiU6yx9J-WONd9GaxSbQL7mkGkg0Lc9M",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "latitude": 40.415147,
+            "created": "2022-02-25T16:32:10Z",
+            "longitude": -3.693941,
+            "description": "Preferred location is Madrid but open to Luxembourg, London, Munich, Paris or Milan.Are you passionate about leveraging technology and data at scale to help driving better decision making, streamlining processes or building the next generation of dashboards?Amazon is seeking a Business Intelligence Engineer to join the EU Retail Finance team. The person in this position will play a key role collaborating with stakeholders across the EU Retail organization on key profitability and productivity i\u2026",
+            "salary_is_predicted": "0",
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Madrid"
+            },
+            "title": "Business Intelligence Engineer (Madrid, Luxembourg, London, Munich, Paris or Milan)",
+            "redirect_url": "https://www.adzuna.es/land/ad/2926012506?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=C685ACAC7F8279B2723C3C150D054DDBB21D9585",
+            "id": "2926012506",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Amazon",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            }
+        },
+        {
+            "description": "SE REQUIERE:Formaci\u00f3n: ADE, Ingenier\u00edas, etc.Postgrado o M\u00e1ster: Supply Chain, Log\u00edstica, Compras (valorable).Idiomas: Ingl\u00e9s (fluido). Franc\u00e9s (muy valorable)IT: Office, ERP (Navision)Funciones: Gesti\u00f3n departamental, tanto a nivel interno (gesti\u00f3n del equipo y definici\u00f3n de los flujos de trabajo interpersonales a fin de asumir en tiempo y forma las obligaciones en materia log\u00edstica y de transporte) como a nivel externo (seguimiento y contacto continuo con los partners externos de log\u00edstica / \u2026",
+            "longitude": 2.176349,
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwNjg3MTIyMiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.RiozZqiUd4AhQ0b_Jl_KcOQE0hxo2jwFy49bSkThPFo",
+            "latitude": 41.384247,
+            "created": "2022-03-29T10:13:26Z",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "D&M Asesores"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "3006871222",
+            "redirect_url": "https://www.adzuna.es/land/ad/3006871222?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=D23B597142BA1C9D7890EDC5114F08DCEEFA0740",
+            "title": "Director/a de Operaciones-Log\u00edstica",
+            "salary_is_predicted": "0",
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Catalu\u00f1a",
+                    "Barcelona",
+                    "Barcelona"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Barcelona"
+            }
+        },
+        {
+            "company": {
+                "display_name": "Amadeus",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "id": "3018600900",
+            "redirect_url": "https://www.adzuna.es/land/ad/3018600900?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=1DBBF43BB5D48C49848A6317425730BB531E9E4A",
+            "title": "Head of Product - Traveler Servicing Solutions",
+            "salary_is_predicted": "0",
+            "location": {
+                "display_name": "Madrid",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ]
+            },
+            "description": ".Business environment Amadeus is the leading B2B Travel IT, serving all key travel actors across the value chain (airlines, airports, hotels, online/offline travel agencies, car rentals, cruises) and continuously reducing frictions and inefficiencies across the overall travel ecosystem. When searching, booking and managing a trip, chances are that an Amadeus IT system is used behind the scene. In fact, Amadeus processes more than 40% of air trips in the world. Hence, to shape the future of trav\u2026",
+            "longitude": -3.693941,
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "latitude": 40.415147,
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxODYwMDkwMCIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.lJzdzb3TL08MshcTqMEYh09WgnB_5dvep4XWx9fFucU",
+            "created": "2022-04-02T07:21:14Z"
+        },
+        {
+            "description": "Ingeniero/a IV&V s\u00e9nior en Madrid. Si te gusta que todo funcione correctamente consideras que el testing es vital en cualquier desarrollo y te apasiona la calidad del software \u00a1welcome to GMV Si a\u00fan no nos conoces somos una empresa de ingenier\u00eda e innovaci\u00f3n que trabajamos en distintas \u00e1reas una de ellas es el sector espacial donde participamos en actividades del segmento de vuelo navegaci\u00f3n por sat\u00e9lite segmento terreno procesamiento de datos y soporte a misiones espaciales entre otras muchas.\u2026",
+            "category": {
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIyNjE3Njc3MjkzIn0.ICUjsYBd9-siGjg5dCnwiIhnfqQJ1uvJz57t54MOmoU",
+            "latitude": 40.429254,
+            "created": "2021-11-06T10:02:49Z",
+            "longitude": -3.724726,
+            "redirect_url": "https://www.adzuna.es/land/ad/2617677293?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=BEBE72DAB03898FF144812954F683C3DE221CDA0",
+            "id": "2617677293",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "__CLASS__": "Adzuna::API::Response::Company",
+                "display_name": "GMV"
+            },
+            "location": {
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "display_name": "Madrid"
+            },
+            "salary_is_predicted": "0",
+            "title": "Ingeniero/a IV&V s\u00e9nior, Madrid"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Hays",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "3040931463",
+            "redirect_url": "https://www.adzuna.es/land/ad/3040931463?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=FDEE94A470D5DEBA4B238EE50C847F5B72C732C1",
+            "title": "Programador Java",
+            "salary_is_predicted": "0",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ],
+                "display_name": "Madrid"
+            },
+            "description": "Estamos colaborando actualmente con una empresa de ciberseguridad especializada en hacking \u00e9tico, ciberseguridad gestionada y CISOaaS. Desarrollan un modelo estrat\u00e9gico avanzado de ciberseguridad alineado con los procesos de negocio de una empresa, as\u00ed como herramientas de alta precisi\u00f3n y productos adaptables de alto impacto. Cuentan con dos unidades de negocio: Servicios de ciberseguridad y productos de ciberseguridad (servicios de auditor\u00eda, Haking \u00e9tico etc). Hacen productos software relaci\u2026",
+            "longitude": -3.693941,
+            "latitude": 40.415147,
+            "category": {
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "label": "Trabajos en inform\u00e1tica"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIzMDQwOTMxNDYzIn0.lq1ofP8Q64mzBCFI5eLdwYY9XYAawvcIouTj8jebjbY",
+            "created": "2022-04-10T07:41:33Z"
+        },
+        {
+            "description": "Software Developer (Java-PL/SQL) en Madrid. Your responsibilities - You will be part of one our biggest development teams within the client. - You will work with our colleagues in Germany (Dresden and Hamburg) and Spain. Your qualifications - At least 3 years of experience in software development with Java and/or PL/SQL. - Plugin-development with EclipseRCP. - Model driven Software development. - Web-development with Angular. - Scripting tasks (with Python bash). - Experiences with agile method\u2026",
+            "created": "2021-10-07T02:58:43Z",
+            "latitude": 40.429254,
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "tag": "it-jobs",
+                "__CLASS__": "Adzuna::API::Response::Category"
+            },
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoibkdXVTBuNjc3QkdPMzNFbUlBTU83USIsImkiOiIyNTIzNTI1NzQyIn0.LrOp535uR-LDVt_BQCHfN8MnxvyGJM2ZSbyAd6JYGHk",
+            "longitude": -3.724726,
+            "redirect_url": "https://www.adzuna.es/land/ad/2523525742?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=E1C7CE0A2CDB217E0678637515A6F0F9E0002B59",
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "HAYS",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "2523525742",
+            "location": {
+                "display_name": "Madrid",
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad de Madrid",
+                    "Madrid",
+                    "Madrid"
+                ]
+            },
+            "salary_is_predicted": "0",
+            "title": "Software Developer (Java-PL/SQL), Madrid"
+        },
+        {
+            "__CLASS__": "Adzuna::API::Response::Job",
+            "company": {
+                "display_name": "Digital Talent Agency",
+                "__CLASS__": "Adzuna::API::Response::Company"
+            },
+            "id": "2695986812",
+            "redirect_url": "https://www.adzuna.es/land/ad/2695986812?se=nGWU0n677BGO33EmIAMO7Q&utm_medium=api&utm_source=2a01aec4&v=E48DEB06423BC68AB8FA9B8FF18029A334577F77",
+            "title": "Desarrollo ETL/BI, Alicante",
+            "salary_is_predicted": "0",
+            "location": {
+                "__CLASS__": "Adzuna::API::Response::Location",
+                "area": [
+                    "Espa\u00f1a",
+                    "Comunidad Valenciana",
+                    "Alicante",
+                    "Villajoyosa/La Vila Joiosa"
+                ],
+                "display_name": "Villajoyosa/La Vila Joiosa, Alicante"
+            },
+            "description": "Desarrollo ETL/BI en Alicante. En Digital Talent Agency te ofrecemos oportunidades laborales de incorporaci\u00f3n directa en empresas destacadas del sector tecnol\u00f3gico. Ponemos el foco en tu desarrollo profesional qu\u00e9 te gusta c\u00f3mo eres y con qu\u00e9 tipo de proyectos te sientes motivado. Formamos parte de Zemsania Global Group y juntos contamos con m\u00e1s de 18 de a\u00f1os de experiencia en asesoramiento profesional a candidatos y b\u00fasqueda y selecci\u00f3n de perfiles tecnol\u00f3gicos. \u00bf Qu\u00e9 buscamos? En DTA buscamos\u2026",
+            "longitude": -0.230439,
+            "created": "2021-12-01T10:00:29Z",
+            "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjY5NTk4NjgxMiIsInMiOiJuR1dVMG42NzdCR08zM0VtSUFNTzdRIn0.qtQqvFJWMIpIJck3RC4SRubybGOlQkWiA2TjtnTeeM4",
+            "category": {
+                "label": "Trabajos en inform\u00e1tica",
+                "__CLASS__": "Adzuna::API::Response::Category",
+                "tag": "it-jobs"
+            },
+            "latitude": 38.507834
+        }
+    ],
+    "mean": 52852.88
+}
