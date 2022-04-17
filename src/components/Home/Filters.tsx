@@ -86,7 +86,7 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                 />
             </Box>
             <Text fontSize="16" color="brand.heading"> History: <br /> </Text>
-            <Stack direction={isSmall ? "row" : "column"} shadow="md" padding="8px" maxHeight="xl" overflow="auto">
+            {/* <Stack direction={isSmall ? "row" : "column"} shadow="md" padding="8px" maxHeight="xl" overflow="auto">
                 {
                     searchHistory.map((entry, index) => (
                         <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
@@ -96,62 +96,7 @@ const Filters: React.FC<Props> = ({ fullTime, searchHistory, toggleFulltime, loc
                         </Box>
                     ))
                 }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-                {
-                    searchHistory.map((entry, index) => (
-                        <Box key={index} padding="8px" minWidth="120px" display="flex" flexDirection="column" placeItems={isSmall ? "center" : "flex-start"} rounded="4px" backgroundColor="white" shadow="md" >
-                            <Text fontSize="14px" > Country: {" "} {entry.q.location.country} </Text>
-                            <Text fontSize="14px" > Where: {" "} {entry.q.where !== "" ? entry.q.where + ", " : "any"} </Text>
-                            <Text fontSize="14px" > Search:<br /> {" "} {entry.q.what ? entry.q.what : "it-jobs"}  <br /> result: {entry.result.count} </Text>
-                        </Box>
-                    ))
-                }
-
-            </Stack>
+            </Stack> */}
         </Box>
     )
 }

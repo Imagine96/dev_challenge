@@ -116,7 +116,7 @@ const useJobs = () => {
                                 what: q.what ? q.what : "",
                                 where: q.where ? q.where : "",
                                 location: location,
-                                fullTime: fullTime
+                                fullTime: fullTime,
                             },
                             result: data
                         })
